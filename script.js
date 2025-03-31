@@ -2,7 +2,7 @@
 async function fetchPPMData() {
     try {
         // Use the correct IP address of the ESP32
-        const response = await fetch("http://172.20.10.2/api/data"); // Use the ESP32 IP here
+        const response = await fetch("http://170.20.10.2/api/data"); // Use the ESP32 IP here
         const data = await response.json();
 
         const ppmValue = data.tdsValue; // PPM value returned by ESP32
