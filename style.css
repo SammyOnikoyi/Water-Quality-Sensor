@@ -5,7 +5,7 @@ body {
 }
 
 .status {
-  font-size: 2.0em;
+  font-size: 2.5em;
   margin-top: 20px;
   text-align: center;
   color: white !important; /* Force the color of the "Status:" text to white */
