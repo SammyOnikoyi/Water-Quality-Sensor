@@ -7,7 +7,6 @@ async function fetchPPMData() {
 
         const ppmValue = data.tdsValue; // PPM value returned by ESP32
         
-        console.log("ESP32 IP Address:", esp32IP); // For testing, log the IP address
         updatePPMResult(ppmValue);
     } catch (error) {
         console.error("Failed to fetch data from ESP32", error);
